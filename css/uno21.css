@@ -1,0 +1,49 @@
+body {
+	font-family: Ubuntu;
+	background-color: #fcfcfc;
+}
+
+header.header {
+	background-image:url('../img/black_thread.png');
+	background-repeat:repeat;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000;
+	height: 150px;
+}
+
+footer.footer {
+	background-color: #030303;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000;
+	padding-top: 3px;
+}
+
+header.header small{
+	color: #aaa;
+
+	text-shadow: 1px 1px 1px #000;
+	font-style: italic;
+	font-size: 1.5em;
+
+	position: relative;
+	top: -15px;
+}
+
+section.contact {
+	min-height: 200px;
+}
+
+div.carousel {
+	height: 400px;
+}
+
+div.carousel div.semi {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+div.carousel div.semi.right {
+	width: 40%;
+	padding-right: 10%;
+}

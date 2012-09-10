@@ -53,7 +53,7 @@
 
 		<section class="row" id="main">
 
-		<div id="myCarousel" class="carousel slide">
+		<div id="myCarousel" class="carousel slide" data-interval="false">
 		  <!-- Carousel items -->
 		  <div class="carousel-inner">
 		    <div class="active item">
@@ -80,10 +80,13 @@
 					    <p>Este curso está dirigido a desarrolladores que dominan otros paradigmas y necesiten sumergirse en el desarrollo orientado a objetos, así como también nuevas incorporaciones que necesiten capacitación.</p>
 					    <h4>Duración</h4>
 					    <p>32 horas</p>
+					    <h4>Alternativas</h4>
+					    <p>Puede dictarse una capacitación más breve (16 horas) que abarque los conceptos básicos de programación orientada a objetos</p>
+					    <p>Puede agregarse un módulo (+8 horas) de taller en un lenguaje de programación específico</p>
 					  </div>
 					  <div class="modal-footer">
 					    <button class="btn" data-dismiss="modal" aria-hidden="true">Cerrar</button>
-					    <a role="button" class="btn btn-success" href="mailto:info@uno21.com.ar?subject=Info sobre track de Programación Orientada a Objetos">Contáctenos</a>
+					    <a role="button" class="btn btn-success" href="mailto:info@uno21.com.ar?subject=Info%20sobre%20cursos%20de%20Programación%20Orientada%20a%20Objetos">Contáctenos</a>
 					  </div>
 					</div>
 		    	</div>
@@ -102,19 +105,39 @@
 					<div class="modal hide fade" id="modalJava" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 					  <div class="modal-header">
 					    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-					    <h3 id="myModalLabel">Programación Orientada a objetos</h3>
+					    <h3 id="myModalLabel">Programación en Java</h3>
 					  </div>
 					  <div class="modal-body">
 					  	<h4>Descripción</h4>
-					    <p>La programación orientada a objetos es una blah blah blah</p>
+					    <p>Nuestro conjunto de cursos de Java está orientado a conocer, practicar y llegar a manejar la tecnología en forma autónoma.</p>
+					    <p>Para ello ofrecemos una orientación en cuanto a los cursos a tomar, y la profundidad de los mismos. Del mismo modo, ajustamos la práctica según las necesidades del grupo</p>
 					    <h4>A quiénes está dirigido</h4>
-					    <p>Este curso está dirigido a desarrolladores que dominan otros paradigmas y necesiten sumergirse en el desarrollo orientado a objetos, así como también nuevas incorporaciones que necesiten capacitación</p>
-					    <h4>Duración</h4>
-					    <p>16 horas</p>
+					    <p>Este curso está dirigido desarrolladores y no desarrolladores que deseen conocer la tecnología, o que ya habiendo dado los primeros pasos tengan interés en dominar aspectos más complejos del lenguaje, o capacidades más avanzadas del mismo</p>
+					    <h4>Cursos ofrecidos</h4>
+					    <ul>
+					    	<li><strong>Introducción al lenguaje Java (32 horas)</strong>
+					    		<p>Uso de variables, objetos, estructuras de control de flujo, métodos y atributos, encapsulamiento, constructores, tipos de dato atómicos y estructurados, herencia básica</p>
+					    	</li>
+					    	<li><strong>Programación básica en Java (40 horas)</strong>
+					    		<p>Identificadores, tipos, expresiones, control de flujo, arrays, diseño de clases, excepciones, framework de colecciones de java (JCF), patrones de diseño, threads</p>
+					    	</li>
+					    	<li><strong>Java Enterprise Edition (40 horas)</strong>
+					    		<p>Model-view-controller (MVC), Tests unitarios, JDBC, diseño en capas, RMI, Java web</p>
+					    	</li>
+					    	<li><strong>Spring (24 horas)</strong>
+					    		<p>Introducción a Spring, conceptos básicos, inyección de dependencias, integración con otros módulos, SpringMVC, anotaciones, vistas</p>
+					    	</li>
+					    	<li><strong>Hibernate (16 horas)</strong>
+					    		<p>Conceptos básicos, qué es un ORM, configuración de Hibernate, Session Factory, mapeo de clases con Annotations, consultas con Criteria, relaciones 1 a 1, 1 a n, n a n, herencia</p>
+					    	</li>
+					    	<li><strong>Hibernate + Spring (32 horas)</strong>
+					    		<p>Incluye ambos cursos, combinados para llevar adelante una mejor solución</p>
+					    	</li>
+					    </ul>
 					  </div>
 					  <div class="modal-footer">
 					    <button class="btn" data-dismiss="modal" aria-hidden="true">Cerrar</button>
-					    <a role="button" class="btn btn-success" href="mailto:info@uno21.com.ar?subject=Info sobre track de Programación Orientada a Objetos">Contáctenos</a>
+					    <a role="button" class="btn btn-success" href="mailto:info@uno21.com.ar?subject=Info%20sobre%20cursos%20de%20Programación%20en%20Java">Contáctenos</a>
 					  </div>
 					</div>
 
@@ -126,7 +149,7 @@
 		    	</div>
 		    	<div class="semi right">
 			    	<h1>Bases de Datos</h1>
-			    	<p>Todo profesional del software debe encontrarse con las bases de datos en el transcurso de su carrera: es una de las constantes. Ya sea relacional o no, será necesario conocerlas y saber cómo aprovechar su potencialidad de la mejor manera</p>
+			    	<p>Todo profesional del software debe encontrarse con las bases de datos en el transcurso de su carrera: <strong>es una de las constantes de la industria</strong>. Ya sea relacional o no, será necesario conocerlas y saber cómo aprovechar su potencialidad de la mejor manera</p>
 			    	<p>Nuestros cursos de bases de datos le permitirán iniciarse y afirmar conocimientos para llevar adelante proyectos que utilicen esta fundamental tecnología.</p>
 
 			    	<a href="#modalDb" role="button" class="btn btn-success pull-right" data-toggle="modal">Más información</a>
@@ -134,20 +157,32 @@
 					<div class="modal hide fade" id="modalDb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 					  <div class="modal-header">
 					    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-					    <h3 id="myModalLabel">Programación Orientada a objetos</h3>
+					    <h3 id="myModalLabel">Bases de Datos</h3>
 					  </div>
 					  <div class="modal-body">
 					  	<h4>Descripción</h4>
-					    <p>Un curso agnóstico del lenguaje de programación, cuyo ojetivo es formar profesionales que puedan entender, comunicar y construir soluciones software utilizando la programación orientada a objetos, y empleando las mejores prácticas del mercado.</p>
-					    <p>Se abarcan unidades que incluyen tanto las primeras nociones como conceptos y principios avanzados que destacarán a sus profesionales.</p>
+					    <p></p>
 					    <h4>A quiénes está dirigido</h4>
 					    <p>Este curso está dirigido a desarrolladores que dominan otros paradigmas y necesiten sumergirse en el desarrollo orientado a objetos, así como también nuevas incorporaciones que necesiten capacitación.</p>
-					    <h4>Duración</h4>
-					    <p>32 horas</p>
+					    <h4>Cursos ofrecidos</h4>
+					    <ul>
+					    	<li><strong>Introducción a las bases de datos (8 horas)</strong>
+					    		<p>Conceptos de bases de datos, tipos. Características, utilización y potencialidades</p>
+					    	</li>
+					    	<li><strong>Programación SQL (40 horas)</strong>
+					    		<p>Creación de esquemas, consultas, vistas, triggers, procedimientos almacenados, funciones. Incluye un taller integrador</p>
+					    	</li>
+					    	<li><strong>Introducción a las bases de datos no relacionales (8 horas)</strong>
+					    		<p>Conceptos de bases de datos, tipos. Características, utilización y potencialidades. Ejemplos y alcance</p>
+					    	</li>
+					    	<li><strong>Aprendiendo MongoDB (32 horas)</strong>
+					    		<p>Introducción. Conceptos básicos. CRUD con MongoDB. Consultas. Índices, agregación, ejemplos. Conceptos avanzados (replica y sharding)</p>
+					    	</li>
+					    </ul>
 					  </div>
 					  <div class="modal-footer">
 					    <button class="btn" data-dismiss="modal" aria-hidden="true">Cerrar</button>
-					    <a role="button" class="btn btn-success" href="mailto:info@uno21.com.ar?subject=Info sobre track de Programación Orientada a Objetos">Contáctenos</a>
+					    <a role="button" class="btn btn-success" href="mailto:info@uno21.com.ar?subject=Info%20sobre%20cursos%20de%20Bases%20de%20Datos">Contáctenos</a>
 					  </div>
 					</div>
 		    	</div>
@@ -272,7 +307,7 @@
                     	</p>
                     	<p>
                      		<h4>Metodologías ágiles</h4>
-                     		Taller de Scrum, Kanban en la empresa, Charla de Lean Startup
+                     		Taller de Scrum, Charla de Lean Startup
                      	</p>
                     	<p>
                      		<h4>Prácticas duras</h4>
@@ -298,7 +333,7 @@
 			<div class="span6">
 				<div class="row">
 					<div class="pull-left">
-						<img src="img/redbee.png" class="flogo"/>
+						<a href="http://www.redb.ee/"><img src="img/redbee.png" class="flogo"/></a>
 					</div>
 					<div class="foreign pull-right">
 						<p>Somos un panal de abejas especializadas que brinda soluciones informáticas novedosas y de calidad. Nos encanta lo que hacemos y lo hacemos bien.</p>
@@ -310,7 +345,7 @@
 			<div class="span6">
 				<div class="row">
 					<div class="pull-left">
-						<img src="img/globons.png" class="flogo"/>
+						<a href="http://www.globons.com/"><img src="img/globons.png" class="flogo"/></a>
 					</div>
 					<div class="foreign pull-right">
 						<p>Globons IT Solutions es un empresa joven fundada por profesionales con amplia experiencia en desarrollo de software y mejora de procesos.</p>

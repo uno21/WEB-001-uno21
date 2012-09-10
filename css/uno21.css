@@ -45,6 +45,42 @@ header.header ul.nav-pills {
 	top: 100px;
 }
 
+header.header img.twitter {
+    height: 26px;
+    position: absolute;
+    right: 196px;
+    top: 50px;
+    width: auto;
+}
+
+header.header img.blog {
+    height: 24px;
+    position: absolute;
+    right: 230px;
+    top: 50px;
+    width: auto;
+}
+
+img.socials {
+	-webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+img.socials:hover {
+    -webkit-transform: scale(1.25) rotate(7deg);
+    -moz-transform: scale(1.25) rotate(7deg);
+    -o-transform: scale(1.25) rotate(7deg);
+    transform: scale(1.25) rotate(7deg);
+
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+
+}
+
 img.logo {
 	margin-right: 20px;
 	margin-top: -10px;

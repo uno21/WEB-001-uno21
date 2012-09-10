@@ -29,38 +29,29 @@
 
 				<div class="span4">
 					<h1>
-						<img src="img/logo.png"/>uno21
+						<img src="img/logo-uno21.png" class="logo"/><span class="title">uno21</span>
 					</h1>
 					<small>entrenamiento flexible</small>
 				</div>
 
 				<div class="span8">
 					<ul class="nav nav-pills pull-right">
-					  <li class="active">
-					    <a href="#">Principal</a>
-					  </li>
-					  <li><a href="#">Carreras</a></li>
-					  <li><a href="#">Asociados</a></li>
-					  <li><a href="#">Contacto</a></li>
+					  <li id="featured"><a href="#">Por qué elegirnos</a></li>
+					  <li id="cursos"><a href="#">Cursos</a></li>
+					  <li id="asociados"><a href="#">Asociados</a></li>
+					  <li id="contacto"><a href="#">Contacto</a></li>
 					</ul>
 				</div>
 
 			</div>
 
-
-
-
 		</div>
 	</header>
-
-
-
-
 
 	<div class="container">
 
 
-		<section class="row">
+		<section class="row" id="main">
 
 		<div id="myCarousel" class="carousel slide">
 		  <!-- Carousel items -->
@@ -70,9 +61,9 @@
 		    		<img src="img/oop.png" class="oop"/>
 		    	</div>
 		    	<div class="semi right">
-			    	<h1>Programación Orientada a Objetos</h1>
-			    	<p>El paradigma de orientación a objetos llegó para quedarse. Sus principios y bases revolucionaron la forma de pensar y desarrollar software. Ya sea que en su empresa se programe en Java, Ruby, PHP, Python o .NET, las bases para arribar a buenas soluciones en tiempo y forma son las mismas.</p>
-			    	<p>Ofrecemos un curso integral, agnóstico del lenguaje de programación, que le permitirá sentar las bases de diseños reusables, extensibles, mantenibles, flexibles y por sobre todas las cosas, <strong>perdurables en el tiempo</strong>.</p>
+					<h1>Programación Orientada a Objetos</h1>
+					<p>El paradigma de orientación a objetos llegó para quedarse. Sus principios y bases revolucionaron la forma de pensar y desarrollar software. Ya sea que en su empresa se programe en Java, Ruby, PHP, Python o .NET, las bases para arribar a buenas soluciones en tiempo y forma son las mismas.</p>
+					<p>Ofrecemos un curso integral, agnóstico del lenguaje de programación, que le permitirá sentar las bases de diseños reusables, extensibles, mantenibles, flexibles y por sobre todas las cosas, <strong>perdurables en el tiempo</strong>.</p>
 
 			    	<a href="#modalOop" role="button" class="btn btn-success pull-right" data-toggle="modal">Más información</a>
 
@@ -135,9 +126,30 @@
 		    	</div>
 		    	<div class="semi right">
 			    	<h1>Bases de Datos</h1>
-			    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed ante a eros laoreet egestas. Duis in purus nec metus blandit adipiscing. Aliquam mi sapien, suscipit lobortis congue nec, pharetra sit amet tellus. Fusce arcu justo, semper at dictum eget, hendrerit at urna. Nullam orci aliquam.</p>
+			    	<p>Todo profesional del software debe encontrarse con las bases de datos en el transcurso de su carrera: es una de las constantes. Ya sea relacional o no, será necesario conocerlas y saber cómo aprovechar su potencialidad de la mejor manera</p>
+			    	<p>Nuestros cursos de bases de datos le permitirán iniciarse y afirmar conocimientos para llevar adelante proyectos que utilicen esta fundamental tecnología.</p>
 
-			    	<button class="btn btn-success pull-right">Más información</button>
+			    	<a href="#modalDb" role="button" class="btn btn-success pull-right" data-toggle="modal">Más información</a>
+
+					<div class="modal hide fade" id="modalDb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-header">
+					    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+					    <h3 id="myModalLabel">Programación Orientada a objetos</h3>
+					  </div>
+					  <div class="modal-body">
+					  	<h4>Descripción</h4>
+					    <p>Un curso agnóstico del lenguaje de programación, cuyo ojetivo es formar profesionales que puedan entender, comunicar y construir soluciones software utilizando la programación orientada a objetos, y empleando las mejores prácticas del mercado.</p>
+					    <p>Se abarcan unidades que incluyen tanto las primeras nociones como conceptos y principios avanzados que destacarán a sus profesionales.</p>
+					    <h4>A quiénes está dirigido</h4>
+					    <p>Este curso está dirigido a desarrolladores que dominan otros paradigmas y necesiten sumergirse en el desarrollo orientado a objetos, así como también nuevas incorporaciones que necesiten capacitación.</p>
+					    <h4>Duración</h4>
+					    <p>32 horas</p>
+					  </div>
+					  <div class="modal-footer">
+					    <button class="btn" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+					    <a role="button" class="btn btn-success" href="mailto:info@uno21.com.ar?subject=Info sobre track de Programación Orientada a Objetos">Contáctenos</a>
+					  </div>
+					</div>
 		    	</div>
 		    </div>
 		  </div>
@@ -148,12 +160,13 @@
 
 		</section>
 
-		<section class="row featured">
+		<section class="row featured" id="featured">
 			<div class="span12">
 				<header class="page-header">
 					<h1>
 						Por qué elegirnos
 						<small>para capacitar a sus empleados</small>
+						<a href="#" id="scrollUp"><i class="icon-chevron-up pull-right middle"></i></a>
 					</h1>
 				</header>
 			</div>
@@ -166,7 +179,7 @@
 				<p>Trabajamos con instructores que se desempeñan en la industria, ejerciendo en la práctica aquellos conceptos que otros sólo explican.</p>
 			</div>
 			<div class="span6">
-				<h2>Mejora contínua</h2>
+				<h2>Mejora continua</h2>
 				<p>Ninguna de nuestras capacitaciones es rígida: siempre se adapta sobre la marcha para elevar el retorno de su inversión. Nos importa que el tiempo que inviertan sus empleados se aproveche del mejor modo.</p>
 			</div>
 			<div class="span6">
@@ -175,12 +188,13 @@
 			</div>
 		</section>
 
-		<section class="row theStuff">
+		<section class="row theStuff" id="cursos">
 			<div class="span12">
 				<header class="page-header">
 					<h1>
 						Nuestros cursos
 						<small>capacitaciones y talleres</small>
+						<a href="#" id="scrollUp"><i class="icon-chevron-up pull-right middle"></i></a>
 					</h1>
 				</header>
 			</div>
@@ -270,12 +284,48 @@
 			</div>
 		</section>
 
-		<section class="row testimonials">
+		<section class="row testimonials" id="asociados">
+			<div class="span12">
+				<header class="page-header">
+					<h1>
+						Empresas
+						<small>con quienes trabajamos</small>
+						<a href="#" id="scrollUp"><i class="icon-chevron-up pull-right middle"></i></a>
+					</h1>
+				</header>
+			</div>
+
+			<div class="span6">
+				<div class="row">
+					<div class="pull-left">
+						<img src="img/redbee.png" class="flogo"/>
+					</div>
+					<div class="foreign pull-right">
+						<p>Somos un panal de abejas especializadas que brinda soluciones informáticas novedosas y de calidad. Nos encanta lo que hacemos y lo hacemos bien.</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="span6">
+				<div class="row">
+					<div class="pull-left">
+						<img src="img/globons.png" class="flogo"/>
+					</div>
+					<div class="foreign pull-right">
+						<p>Globons IT Solutions es un empresa joven fundada por profesionales con amplia experiencia en desarrollo de software y mejora de procesos.</p>
+					</div>
+			</div>
+
+		</section>
+
+		<section class="row testimonials" id="asociados">
 			<div class="span12">
 				<header class="page-header">
 					<h1>
 						Algunos testimonios
 						<small>de quienes ya nos eligieron</small>
+						<a href="#" id="scrollUp"><i class="icon-chevron-up pull-right middle"></i></a>
 					</h1>
 				</header>
 			</div>
@@ -300,12 +350,13 @@
 			</div>
 		</section>
 
-		<section class="row contact">
+		<section class="row contact" id="contacto">
 			<div class="span12">
 				<header class="page-header">
 					<h1>
 						Contáctenos
-						<small>nos encantaría escuchar su necesidad</small>
+						<small>nos encantaría escucharlo</small>
+						<a href="#" id="scrollUp"><i class="icon-chevron-up pull-right middle"></i></a>
 					</h1>
 				</header>
 			</div>
@@ -335,7 +386,28 @@
 	</footer>
 
 	<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+	<script>
+	$(function(){
+		$.scrollTo(0);
+
+		$("ul.nav-pills li").click(function(){
+			$("ul.nav-pills li").removeClass("active");
+			$(this).addClass("active");
+			var href = $(this).attr('id');
+			var link = "section#" + href;
+			var position = $(link).position();
+			$.scrollTo({ top: position.top, left: 0}, 800);
+		});
+
+		$("a#scrollUp").click(function(){
+			$("ul.nav-pills li").removeClass("active");
+			$.scrollTo({ top: 0, left: 0}, 800);
+		});
+	});
+	</script>
 
 
 </body>

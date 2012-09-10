@@ -3,6 +3,24 @@ body {
 	background-color: #fcfcfc;
 }
 
+a, a:hover {
+	color: #007900;
+}
+
+.nav-pills > li > a:hover {
+	background-color: #007900;
+    color: #FFFFFF;	
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+	background-color: #007900;
+    color: #FFFFFF;
+}
+
+i.middle {
+	margin-top: 20px;
+}
+
 header.header {
 	background-image:url('../img/black_thread.png');
 	background-repeat:repeat;
@@ -19,6 +37,23 @@ header.header ul.nav-pills {
 	position: relative;
 	top: 100px;
 }
+
+img.logo {
+	margin-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	width: 80px;
+	height: auto;
+}
+
+h1 span.title {
+	margin-top: 20px;
+}
+
+div.foreign {
+	width: 310px;
+}
+
 footer.footer {
 	background-image:url('../img/black_thread.png');
 	background-repeat:repeat;

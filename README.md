@@ -1,1 +1,1 @@
-![Bilby Stampede](img/db.png)
+![Bilby Stampede](./img/db.png)
